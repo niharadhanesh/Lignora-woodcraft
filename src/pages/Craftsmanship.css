@@ -1,0 +1,157 @@
+.craft-page {
+  padding-top: 0;
+}
+
+.craft-intro {
+  padding: 8rem 6rem;
+  background: var(--deep);
+  text-align: center;
+}
+
+.craft-intro-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.craft-intro h2 {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.craft-intro h2 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.craft-intro p {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.craft-steps {
+  background: var(--black);
+}
+
+.craft-step {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 70vh;
+}
+
+.craft-step.reversed {
+  direction: rtl;
+}
+
+.craft-step.reversed .step-text,
+.craft-step.reversed .step-image {
+  direction: ltr;
+}
+
+.step-image {
+  overflow: hidden;
+}
+
+.step-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.craft-step:hover .step-image img {
+  transform: scale(1.04);
+  filter: brightness(0.85);
+}
+
+.step-text {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--dark);
+}
+
+.step-num {
+  font-family: var(--font-serif);
+  font-size: 5rem;
+  font-weight: 300;
+  color: rgba(201, 169, 110, 0.1);
+  line-height: 1;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.step-text h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 1.75rem;
+}
+
+.step-text p {
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  line-height: 1.9;
+  max-width: 420px;
+}
+
+.craft-cta {
+  padding: 9rem 6rem;
+  background: var(--deep);
+  text-align: center;
+}
+
+.craft-cta h2 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.craft-cta h2 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.craft-cta p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+  .craft-intro,
+  .craft-cta {
+    padding: 6rem 2.5rem;
+  }
+  .craft-step {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .craft-step.reversed {
+    direction: ltr;
+  }
+  .step-image {
+    height: 50vw;
+    min-height: 260px;
+  }
+  .step-text {
+    padding: 3rem 2.5rem;
+  }
+  .step-text p {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+/* Shared styles referenced across pages */
+/* page-hero used in Collections, About, Contact, Projects, Craftsmanship */
+.page-hero {
+  position: relative;
+  height: 55vh;
+  min-height: 400px;
+  display: flex;
+  align-items: flex-end;
+  padding: 5rem 6rem;
+  overflow: hidden;
+}
+
+.page-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,6,0.9) 0%, rgba(10,8,6,0.35) 100%);
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 2;
+  animation: heroReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+@keyframes heroReveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-hero-content h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.05;
+}
+
+.page-hero-content h1 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+@media (max-width: 1024px) {
+  .page-hero {
+    padding: 4rem 2.5rem;
+    height: 45vh;
+    min-height: 320px;
+  }
+}

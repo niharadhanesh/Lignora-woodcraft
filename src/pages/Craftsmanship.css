@@ -1,14 +1,58 @@
+/* ─────────────────────────────────────
+   CRAFT PAGE — UPDATED LUXURY COLORS
+   Same Layout + Better Mixed Theme
+───────────────────────────────────── */
+
 .craft-page {
   padding-top: 0;
+
+  background:
+    #f4ece1;
+
+  overflow: hidden;
 }
 
+/* ─────────────────────
+   INTRO
+───────────────────── */
+
 .craft-intro {
+  position: relative;
+
   padding: 8rem 6rem;
-  background: var(--deep);
+
+  background:
+    #17110d;
+
   text-align: center;
+
+  overflow: hidden;
+}
+
+/* subtle ambient glow */
+.craft-intro::before{
+  content:'';
+
+  position:absolute;
+
+  width:500px;
+  height:500px;
+
+  border-radius:50%;
+
+  background:
+    rgba(201,169,110,0.07);
+
+  top:-220px;
+  right:-120px;
+
+  filter:blur(90px);
 }
 
 .craft-intro-inner {
+  position: relative;
+  z-index: 2;
+
   max-width: 900px;
   margin: 0 auto;
 }
@@ -16,31 +60,52 @@
 .craft-intro h2 {
   font-size: clamp(1.8rem, 3vw, 2.8rem);
   font-weight: 300;
-  color: var(--white);
+
+  color: #f8f2e9;
+
   line-height: 1.4;
+
   margin-bottom: 2rem;
 }
 
 .craft-intro h2 em {
   font-style: italic;
-  color: var(--gold-light);
+  color: #d9b77c;
 }
 
 .craft-intro p {
   font-size: 0.8rem;
+
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--gold);
+
+  color: #b9915f;
 }
+
+/* ─────────────────────
+   STEPS SECTION
+───────────────────── */
 
 .craft-steps {
-  background: var(--black);
+  background:
+    #efe3d3;
 }
 
+/* alternating luxury blocks */
 .craft-step {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   min-height: 70vh;
+
+  background:
+    #efe3d3;
+}
+
+/* alternate darker section */
+.craft-step:nth-child(even){
+  background:
+    #16110d;
 }
 
 .craft-step.reversed {
@@ -52,106 +117,267 @@
   direction: ltr;
 }
 
+/* ─────────────────────
+   IMAGE
+───────────────────── */
+
 .step-image {
+  position: relative;
   overflow: hidden;
+}
+
+.step-image::after{
+  content:'';
+
+  position:absolute;
+  inset:0;
+
+  background:
+    rgba(0,0,0,0.18);
 }
 
 .step-image img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
-  filter: brightness(0.75);
-  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+
+  filter: brightness(0.78);
+
+  transition:
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    filter .7s ease;
 }
 
 .craft-step:hover .step-image img {
   transform: scale(1.04);
-  filter: brightness(0.85);
+  filter: brightness(0.9);
 }
 
+/* ─────────────────────
+   TEXT
+───────────────────── */
+
 .step-text {
+  position: relative;
+
   padding: 6rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--dark);
+
+  background:
+    transparent;
+
+  overflow: hidden;
+}
+
+/* luxury vertical line */
+.step-text::before{
+  content:'';
+
+  position:absolute;
+
+  left:4rem;
+  top:50%;
+
+  transform:translateY(-50%);
+
+  width:1px;
+  height:120px;
+
+  background:
+    rgba(201,169,110,0.3);
+}
+
+/* light sections */
+.craft-step:nth-child(odd) .step-num{
+  color: rgba(138, 102, 58, 0.12);
+}
+
+.craft-step:nth-child(odd) .step-text h3{
+  color: #1b140f;
+}
+
+.craft-step:nth-child(odd) .step-text p{
+  color: rgba(28,20,15,0.72);
+}
+
+/* dark sections */
+.craft-step:nth-child(even) .step-num{
+  color: rgba(201,169,110,0.1);
+}
+
+.craft-step:nth-child(even) .step-text h3{
+  color: #f8f2e9;
+}
+
+.craft-step:nth-child(even) .step-text p{
+  color: rgba(255,255,255,0.66);
 }
 
 .step-num {
   font-family: var(--font-serif);
+
   font-size: 5rem;
   font-weight: 300;
-  color: rgba(201, 169, 110, 0.1);
+
   line-height: 1;
+
   display: block;
+
   margin-bottom: 1.5rem;
 }
 
 .step-text h3 {
   font-family: var(--font-serif);
+
   font-size: clamp(1.8rem, 2.5vw, 2.5rem);
   font-weight: 400;
-  color: var(--white);
+
   margin-bottom: 1.75rem;
+
+  line-height: 1.2;
 }
 
 .step-text p {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 300;
-  color: var(--text-muted);
-  line-height: 1.9;
+
+  line-height: 2;
+
   max-width: 420px;
 }
 
+/* ─────────────────────
+   CTA
+───────────────────── */
+
 .craft-cta {
+  position: relative;
+
   padding: 9rem 6rem;
-  background: var(--deep);
+
+  background:
+    #20160f;
+
   text-align: center;
+
+  overflow: hidden;
+}
+
+/* luxury soft glow */
+.craft-cta::before{
+  content:'';
+
+  position:absolute;
+
+  width:600px;
+  height:600px;
+
+  border-radius:50%;
+
+  background:
+    rgba(201,169,110,0.08);
+
+  bottom:-300px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  filter:blur(120px);
 }
 
 .craft-cta h2 {
+  position: relative;
+  z-index: 2;
+
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 300;
-  color: var(--white);
+
+  color: #f8f2e9;
+
   line-height: 1.1;
+
   margin-bottom: 1.5rem;
 }
 
 .craft-cta h2 em {
   font-style: italic;
-  color: var(--gold-light);
+  color: #d9b77c;
 }
 
 .craft-cta p {
-  font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
+
+  font-size: 0.92rem;
   font-weight: 300;
-  color: var(--text-muted);
+
+  color: rgba(255,255,255,0.62);
+
   margin-bottom: 3rem;
+
   max-width: 500px;
+
   margin-left: auto;
   margin-right: auto;
+
+  line-height: 1.9;
 }
 
+/* ─────────────────────
+   RESPONSIVE
+───────────────────── */
+
 @media (max-width: 1024px) {
+
   .craft-intro,
   .craft-cta {
     padding: 6rem 2.5rem;
   }
+
   .craft-step {
     grid-template-columns: 1fr;
     min-height: auto;
   }
+
   .craft-step.reversed {
     direction: ltr;
   }
+
   .step-image {
     height: 50vw;
     min-height: 260px;
   }
+
   .step-text {
     padding: 3rem 2.5rem;
   }
+
+  .step-text::before{
+    left:2rem;
+    height:80px;
+  }
+
   .step-text p {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 680px){
+
+  .craft-intro,
+  .craft-cta{
+    padding:4.5rem 1.5rem;
+  }
+
+  .step-text{
+    padding:3rem 1.5rem;
+  }
+
+  .step-num{
+    font-size:4rem;
   }
 }

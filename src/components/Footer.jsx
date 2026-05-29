@@ -150,7 +150,7 @@ export default function Footer() {
         </div>
  
         {/* Awards / credentials strip */}
-        <div className="ftr-credentials">
+        {/* <div className="ftr-credentials">
           <div className="ftr-cred-item">
             <strong>28+</strong>
             <span>Years of craft</span>
@@ -170,7 +170,7 @@ export default function Footer() {
             <strong>100%</strong>
             <span>Handcrafted</span>
           </div>
-        </div>
+        </div> */}
  
       </div>
  

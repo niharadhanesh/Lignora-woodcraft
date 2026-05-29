@@ -9,7 +9,7 @@ const COLLECTIONS = [
     category: 'Living & Lounge',
     desc: 'Commanding presence. Crafted from aged teak with hand-rubbed oil finish.',
     price: 'From ₹1,40,000',
-    img: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJlZCUyMHJvb218ZW58MHx8MHx8fDA%3D',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const COLLECTIONS = [
     category: 'Bedroom',
     desc: 'Where rest becomes ritual. Rosewood with antique brass inlays.',
     price: 'From ₹1,80,000',
-    img: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
+    img: 'https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJlZCUyMHJvb218ZW58MHx8MHx8fDA%3D',
   },
   {
     id: 4,
@@ -44,34 +44,34 @@ const PROCESS = [
     title: 'Selection',
     label: 'TIMBER SOURCING',
     desc: 'Every piece begins with choosing the right tree. We source only from certified, sustainable forests — selecting for grain, character, and age.',
-    img: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1507041957456-9c397ce39c97?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '02',
     title: 'Seasoning',
     label: 'DRYING & CURING',
     desc: 'Timber is air-dried and kiln-seasoned for 6–18 months. Patient preparation that prevents warping and ensures lifelong stability.',
-    img: 'https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1604578762246-41134e37f9cc?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '03',
     title: 'Joinery',
     label: 'HAND CRAFTSMANSHIP',
     desc: 'Traditional dovetail, mortise-and-tenon, and finger joints — zero glue shortcuts. Every joint is a testament to our masters\' skill.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1667923006173-9e0d2251f608?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '04',
     title: 'Finishing',
     label: 'SURFACE TREATMENT',
     desc: 'Hand-rubbed oils, waxes, and lacquers applied in 6–12 coats. Surfaces that deepen in beauty with every passing year.',
-    img: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D',
   },
 ]
 
 const HERO_SLIDES = [
   {
-    src: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1800&q=85',
+    src: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=1800&q=85',
     alt: 'Luxury wooden living room interior',
   },
   {
@@ -79,7 +79,7 @@ const HERO_SLIDES = [
     alt: 'Handcrafted wooden sofa and lounge',
   },
   {
-    src: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=1800&q=85',
+    src: 'https://plus.unsplash.com/premium_photo-1661944207827-45fc033c4e36?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     alt: 'Solid walnut dining table',
   },
   {
@@ -98,29 +98,29 @@ const SHOWCASE_SLIDES = [
     num: '01',
     title: 'Wood Selection',
     desc: 'Each plank begins its journey in certified forests — chosen for grain clarity, density, and the quiet character that only old-growth wood possesses.',
-    img: 'https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=1200&q=85',
-    colImg: 'https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=600&q=80',
+    img: 'https://images.unsplash.com/photo-1679414695857-76541f78e31b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    colImg: 'https://images.unsplash.com/photo-1679414695857-76541f78e31b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '02',
     title: 'Hand Joinery',
     desc: 'Dovetail, mortise-and-tenon, finger joints — executed entirely by hand. No shortcuts. Every connection is a quiet declaration of permanence.',
-    img: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1200&q=85',
-    colImg: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80',
+    img: 'https://images.unsplash.com/photo-1639622831600-13455a4fa3c7?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    colImg: 'https://images.unsplash.com/photo-1639622831600-13455a4fa3c7?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '03',
     title: 'Surface Finishing',
     desc: 'Hand-rubbed oils, waxes, and lacquers applied in 6–12 coats. Surfaces that deepen in beauty with every passing year — never masking, always revealing.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85',
-    colImg: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    img: 'https://images.unsplash.com/photo-1667923006173-9e0d2251f608?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    colImg: 'https://images.unsplash.com/photo-1667923006173-9e0d2251f608?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     num: '04',
     title: 'Final Assembly',
     desc: 'Every component is hand-fitted and inspected before the final piece is assembled. Fit, finish, and function checked by master craftsmen before it leaves our workshop.',
     img: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=85',
-    colImg: 'https://images.unsplash.com/photo-1567016432779-094069958ea5?w=600&q=80',
+    colImg: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=85',
   },
 ]
 
@@ -361,7 +361,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hv2-panel">
-          <img src="https://images.unsplash.com/photo-1729086046027-09979ade13fd?q=80&w=862&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Natural wood interior beauty" />
+          <img src="https://images.unsplash.com/photo-1650270884824-8a450e44f06e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Natural wood interior beauty" />
           <div className="hv2-panel-overlay" />
           <div className="hv2-panel-content">
             <h3>Natural beauty,<br/>enduring strength</h3>
@@ -437,7 +437,7 @@ export default function Home() {
         {/* ── PART 1: Full-bleed forest opener ── */}
         <div className="hv2-origin-opener">
           <img
-            src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1800&q=85"
+            src="https://plus.unsplash.com/premium_photo-1747141505609-cfc437884d11?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Nilambur teak forest"
             className="hv2-origin-opener-img"
           />
@@ -507,7 +507,7 @@ export default function Home() {
       <section className="hv2-cta">
         <div
           className="hv2-cta-bg"
-          style={{ backgroundImage: `url(https://images.unsplash.com/photo-1646890205150-94ea009e4495?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}
+          style={{ backgroundImage: `url(https://images.unsplash.com/photo-1630184604932-665d42cfcc69?q=80&w=1152&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}
         />
         <div className="hv2-cta-overlay" />
         <div className="hv2-cta-content reveal">
